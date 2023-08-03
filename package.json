@@ -1,6 +1,6 @@
 {
   "name": "utahpot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library, providing a simple and convenient way to use WebGPU",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
