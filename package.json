@@ -1,7 +1,7 @@
 {
   "name": "utahpot",
   "version": "1.0.0",
-  "description": "Library, providing an API for WebGPU",
+  "description": "Library, providing a simple and convenient way to use WebGPU",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,9 +12,9 @@
     "lint": "eslint ./src --ignore-path .eslintignore --ext .ts",
     "format": "prettier --ignore-path .prettierignore --write \"src/**/*.+ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["webgpu", "threejs", "babylonjs", "p5js", "utahpot", "3d", "graphics"],
+  "author": "Tymofii Levytskyi",
+  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -27,5 +27,13 @@
   "dependencies": {
     "@webgpu/types": "^0.1.34",
     "gl-matrix": "^3.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTAHPOT/UTAHPOT_beta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UTAHPOT/UTAHPOT_beta/issues"
+  },
+  "homepage": "https://github.com/UTAHPOT/UTAHPOT_beta#readme"
 }
