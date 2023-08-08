@@ -30,6 +30,7 @@ export class Light {
 
   set_position(position: vec3) {
     this.position = position;
+    this.update();
   }
 
   get_position(): vec3 {
@@ -38,6 +39,7 @@ export class Light {
 
   set_eulers(eulers: vec3) {
     this.eulers = eulers;
+    this.update();
   }
 
   get_eulers(): vec3 {
