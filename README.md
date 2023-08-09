@@ -11,6 +11,8 @@ help when using WebGPU (WGPU) in your projects.
 
 ##### Here is the [example](https://github.com/Saerafi/UtahPot_landing) of using this library on our landing page.
 
+##### Here is the [base project to use with Utahpot](https://github.com/UTAHPOT/Base_project).
+
 ##### Here is the documentation for [WebGPU](https://www.w3.org/TR/webgpu/)
 
 We reccomend to use this architecture:  

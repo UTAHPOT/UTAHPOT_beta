@@ -1,6 +1,6 @@
 {
   "name": "utahpot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library, providing a simple and convenient way to use WebGPU",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
     "lint": "eslint ./src --ignore-path .eslintignore --ext .ts",
     "format": "prettier --ignore-path .prettierignore --write \"src/**/*.+ts\""
   },
-  "keywords": ["webgpu", "threejs", "babylonjs", "p5js", "utahpot", "3d", "graphics"],
+  "keywords": ["webgpu", "threejs", "babylonjs", "p5js", "utahpot", "3d", "graphics", "gpu", "canvas", "html", "wgsl", "wgsl-shaders", "webgpu-shaders"],
   "author": "Tymofii Levytskyi <tlevickij@gmail.com> @saerafi",
   "license": "MIT",
   "devDependencies": {
